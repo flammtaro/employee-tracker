@@ -1,3 +1,4 @@
+-- Creates the seeds for departments
 INSERT INTO departments (department_name)
 VALUES 
         ("Marketing"),
@@ -6,7 +7,7 @@ VALUES
         ("Production"),
         ("Art"),
         ("Design");
-
+-- Creates the seed for roles
 INSERT INTO roles (title, salary, department_id)
 VALUES
         ("Market Research", 70000, 1),
@@ -21,18 +22,18 @@ VALUES
         ("Senior Artist", 110000, 5),
         ("Designer", 70000, 6),
         ("Senior Designer", 110000, 6);
-
-INSERT INTO employees (first_name, last_name)
+-- Creates the seed for employees
+INSERT INTO employees (first_name, last_name, role_id)
 VALUES
-        ("Richard", "Madden"),
-        ("Stephanie", "Roberts"),
-        ("Joan", "Stevens"),
-        ("Maxwell", "Jacobs"),
-        ("Gillian", "Jacobs"),
-        ("Tommy", "Fullerton"),
-        ("Boris", "Romanov"),
-        ("Amy", "Lewis"),
-        ("Louie", "Willems"),
-        ("David", "Johnson"),
-        ("Joe", "King"),
-        ("Tyler", "Hall");
+        ("Richard", "Madden", 1),
+        ("Stephanie", "Roberts", 2),
+        ("Joan", "Stevens", 3),
+        ("Maxwell", "Jacobs", 4),
+        ("Gillian", "Jacobs", 5),
+        ("Tommy", "Fullerton", 6),
+        ("Boris", "Romanov", 7),
+        ("Amy", "Lewis", 8),
+        ("Louie", "Willems", 9),
+        ("David", "Johnson", 10),
+        ("Joe", "King", 11),
+        ("Tyler", "Hall", 12);
