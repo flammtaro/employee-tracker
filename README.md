@@ -13,10 +13,14 @@ To install this project, you need to:
 -Open the code in Visual Studio Code
 
 ## Usage
-This code contains an index.js file that runs the program, as well as different packages that need to be installed. To do so, type npm i, and it should install the currently set packages. Next, open your terminal, and type node index.js.Then, a series of prompts will appear that will ask you questions. A video of the current version of the program can be seen here. Press to play: ![Press to Play Video](https://www.youtube.com/watch?v=PIcA8Blb1yA). 
+This code contains an index.js file that runs the program, as well as different packages that need to be installed. To do so, type npm i, and it should install the currently set packages. Next, open your terminal, and type node index.js.Then, a series of prompts will appear that will ask you questions. A video of the current version of the program can be seen here. Press to play: ![Press to Play Video](https://user-images.githubusercontent.com/95344599/155921024-1340ae80-0bd8-4546-a537-e85fdc790fa6.mp4). 
 
 ## Credits
 This project was created by Reid Somers Flamm. 
+
+
+
+
 
 His GitHub can be found at: https://github.com/flammtaro
 The skills used to complete this project were learned from the UW Bootcamp. 
